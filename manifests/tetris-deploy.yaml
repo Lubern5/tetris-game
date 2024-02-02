@@ -16,7 +16,6 @@ spec:
     spec:
       containers:
         - name: tetris
-          image: localstack/localstack
- # Replace with the actual image tag
+          image: itzg/minecraft-server # Replace with the actual image tag
           ports:
             - containerPort: 80 # Replace with the port your Tetris game listens on
