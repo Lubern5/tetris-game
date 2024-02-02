@@ -16,6 +16,7 @@ spec:
     spec:
       containers:
         - name: tetris
-          image: inglebard/retroarch-web # Replace with the actual image tag
+          image: localstack/localstack
+ # Replace with the actual image tag
           ports:
             - containerPort: 80 # Replace with the port your Tetris game listens on
